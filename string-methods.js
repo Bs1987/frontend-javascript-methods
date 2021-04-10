@@ -44,6 +44,9 @@ console.log(userInput.trim());
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
 
+const fantastic = story.includes("Fantastisch");
+
+console.log(fantastic);
 
 
 
