@@ -22,7 +22,8 @@ console.log(roundedCircumference);
 /* Opdracht 3: */
 // Bereken de wortel van 9 en log dit in de terminal
 // ---- Verwachte uitkomst: 3
-
+const squareRoot = Math.sqrt(9);
+console.log(squareRoot);
 
 
 /* Opdracht 4: */
