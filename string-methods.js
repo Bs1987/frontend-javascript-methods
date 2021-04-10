@@ -35,7 +35,7 @@ console.log(lastFruit, lastVegetable);
 // ---- Verwachte uitkomst: "De kat krabt de krullen van de trap"
 
 const userInput = "  De kat krabt de krullen van de trap ";
-
+console.log(userInput.trim());
 
 
 /* Opdracht 4 */
@@ -43,6 +43,7 @@ const userInput = "  De kat krabt de krullen van de trap ";
 // ---- Verwachte uitkomst: true
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
+
 
 
 
