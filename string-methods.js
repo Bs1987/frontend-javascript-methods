@@ -13,6 +13,7 @@ console.log(word.length);
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
+console.log(fruit.length > vegetable.length);
 
 
 /* Opdracht 2 */
@@ -20,8 +21,14 @@ const vegetable = "Aardappel";
 //  Tip: bedenk 1 manier die voor beide woorden zou werken.
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
+function lastLetter (word) {
+    return word.charAt(word.length - 1);
+}
 
+const lastFruit = lastLetter(fruit);
+const lastVegetable = lastLetter(vegetable);
 
+console.log(lastFruit, lastVegetable);
 
 /* Opdracht 3 */
 //  Haal de spaties aan het begin en eind van onderstaande zin weg en log dit in de terminal
