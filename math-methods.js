@@ -15,7 +15,8 @@ console.log(circumference(4));
 /* Opdracht 2: */
 // Bereken de omtrek van een cirkel met een diameter van 12 en rond dit af naar een heel getal. Log dit in de terminal.
 // ---- Verwachte uitkomst: 38
-
+const roundedCircumference = Math.round(circumference(12));
+console.log(roundedCircumference);
 
 
 /* Opdracht 3: */
