@@ -43,7 +43,7 @@ console.log(reverseNames);
 // ---- Verwachte uitkomst: [ 'Utrecht', 'Amsterdam', 'Maastricht', 'Eindhoven' ]
 
 const cities = ["Utrecht", "Maastricht", "Eindhoven"];
-cities.splice(1, 0, "Amstedam");
+cities.splice(1, 0, "Amsterdam");
 console.log(cities)
 
 
