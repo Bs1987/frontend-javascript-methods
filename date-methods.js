@@ -1,9 +1,9 @@
-/* Opdracht 0: voorbeeld */
+8/* Opdracht 0: voorbeeld */
 // Maak een nieuw date-object aan voor dit huidige moment en log dit in de terminal
 // ---- Verwachte uitkomst: 2021-04-06T14:54:34.062Z (afhankelijk van het moment)
 
-const currentDay = new Date();
-console.log(currentDay);
+// const currentDay = new Date();
+// console.log(currentDay);
 
 
 /* Opdracht 1 */
